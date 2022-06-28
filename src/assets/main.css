@@ -1,0 +1,40 @@
+html {
+  font-size: 17px;
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1.5em;
+}
+h6 {
+  font-size: 1.25em;
+}
+p,
+span {
+  font-size: 1em;
+}
+
+body * {
+  transition: all 0.3s ease-in-out;
+}
